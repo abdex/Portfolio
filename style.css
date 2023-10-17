@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: peachpuff;
+}
+
+svg {
+    width: 80%;
+    position: relative;
+    left: 30%;
+    top: 75px;
+}
+
+
+.navContainer {
+    display: flex;
+    background-color: rgb(95, 158, 160);
+    margin: 0;
+    padding: 10px;
+    width:100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    left:0;
+    justify-content:left
+}
+
+.navContainer a {
+    text-decoration: none;
+    color: rgb(5, 4, 5);
+    padding: 3px;
+    font-size: 19px;
+}
+
+.navContainer a:hover {
+	color:plum;
+}
+
+h1 {
+    font-family: 'Assistant', sans-serif;
+    color: rgb(3, 2, 2);
+}
+
+.mainMessage {
+    position: absolute;
+    z-index: 1;
+    bottom: 5%;
+}

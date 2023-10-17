@@ -8,13 +8,17 @@ body {
     background-color: peachpuff;
 }
 
-svg {
+.imgHome svg {
     width: 80%;
     position: relative;
     left: 30%;
     top: 75px;
 }
 
+.contactPic svg {
+    position: relative;
+    top: 100px;
+}
 
 .navContainer {
     display: flex;
@@ -49,6 +53,14 @@ svg {
 h1 {
     font-family: 'Assistant', sans-serif;
     color: rgb(3, 2, 2);
+}
+
+.contactEmail {
+    bottom: 50px;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .mainMessage {

@@ -40,6 +40,12 @@ svg {
 	color:plum;
 }
 
+.navContainer div {
+    color: rgb(5, 4, 5);
+    padding: 3px;
+    font-size: 19px;
+}
+
 h1 {
     font-family: 'Assistant', sans-serif;
     color: rgb(3, 2, 2);

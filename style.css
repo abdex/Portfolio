@@ -55,6 +55,8 @@ h1 {
     color: rgb(3, 2, 2);
 }
 
+
+
 .contactEmail {
     bottom: 50px;
     position: absolute;
@@ -67,4 +69,22 @@ h1 {
     position: absolute;
     z-index: 1;
     bottom: 5%;
+}
+
+.aboutTitle {
+    position: relative;
+    top: 50px;
+}
+
+.aboutMe {
+    font-family: 'Assistant', sans-serif;
+    position:absolute;
+    top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aboutMe_svg {
+    position: relative;
 }

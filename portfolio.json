@@ -1,0 +1,27 @@
+{
+    "projects": [
+      {
+        "name": "Project 1",
+        "date": "October 2023",
+        "details": "Travel Website front end",
+        "location": "https://github.com/abdex/Portfolio/blob/main/undraw_Travel_svg.jpg" ,
+        "image": "https://github.com/abdex/Portfolio/blob/main/undraw_Travel_svg.jpg?raw=true"
+      },
+
+      {
+        "name": "Project 2",
+        "date": "November 2023",
+        "details": "Chat bot",
+        "location": "https://github.com/abdex/Portfolio/blob/main/undraw_Chat_bot_svg.jpg",
+        "image": "https://github.com/abdex/Portfolio/blob/main/undraw_Chat_bot_svg.jpg?raw=true"
+      },
+
+      {
+        "name": "Project 3",
+        "date": "December 2023",
+        "details": "Grocery shopping App",
+        "location": "https://github.com/abdex/Portfolio/blob/main/undraw_Mobile_feed_svg.jpg",
+        "image": "https://github.com/abdex/Portfolio/blob/main/undraw_Mobile_feed_svg.jpg?raw=true"
+      }
+    ]
+  }

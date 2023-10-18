@@ -5,86 +5,87 @@
 }
 
 body {
-    background-color: peachpuff;
+  background-color: peachpuff;
 }
 
 .imgHome svg {
-    width: 80%;
-    position: relative;
-    left: 30%;
-    top: 75px;
+  width: 80%;
+  position: relative;
+  left: 30%;
+  top: 75px;
 }
 
 .contactPic svg {
-    position: relative;
-    top: 100px;
+  position: relative;
+  top: 100px;
 }
 
 .navContainer {
-    display: flex;
-    background-color: rgb(95, 158, 160);
-    margin: 0;
-    padding: 10px;
-    width:100%;
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    left:0;
-    justify-content:left
+  display: flex;
+  background-color: rgb(95, 158, 160);
+  margin: 0;
+  padding: 10px;
+  width:100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  left:0;
+  justify-content:left
 }
 
 .navContainer a {
-    text-decoration: none;
-    color: rgb(5, 4, 5);
-    padding: 3px;
-    font-size: 19px;
+  text-decoration: none;
+  color: rgb(5, 4, 5);
+  padding: 3px;
+  font-size: 19px;
 }
 
 .navContainer a:hover {
-	color:plum;
+  color:plum;
 }
 
 .navContainer div {
-    color: rgb(5, 4, 5);
-    padding: 3px;
-    font-size: 19px;
+  color: rgb(5, 4, 5);
+  padding: 3px;
+  font-size: 19px;
 }
 
 h1 {
-    font-family: 'Assistant', sans-serif;
-    color: rgb(3, 2, 2);
+  font-family: 'Assistant', sans-serif;
+  color: rgb(3, 2, 2);
 }
 
 
 
 .contactEmail {
-    bottom: 50px;
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    margin: 0 auto;
+  bottom: 50px;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .mainMessage {
-    position: absolute;
-    z-index: 1;
-    bottom: 5%;
+  position: absolute;
+  z-index: 1;
+  bottom: 5%;
 }
 
 .aboutTitle {
-    position: relative;
-    top: 50px;
+  position: relative;
+  top: 50px;
 }
 
 .aboutMe {
-    font-family: 'Assistant', sans-serif;
-    position:absolute;
-    top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  font-family: 'Assistant', sans-serif;
+  position:absolute;
+  top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 1;
 }
 
 .aboutMe_svg {
-    position: relative;
+  position: fixed;
 }

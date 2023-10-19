@@ -4,8 +4,10 @@
   box-sizing: border-box;
 }
 
-body {
+body, html {
   background-color: peachpuff;
+  min-height: 100%;
+  padding-bottom: 50px;
 }
 
 .imgHome svg {
@@ -13,12 +15,14 @@ body {
   position: relative;
   left: 30%;
   top: 75px;
+
 }
 
 .contactPic svg {
   position: relative;
   top: 100px;
   z-index: 0;
+  height: 60%;
 }
 
 .navContainer {
@@ -58,11 +62,9 @@ h1 {
 
 .contactEmail {
   top: 50px;
-  right: 5px;
-  position: absolute;
-  z-index: 1;
-  width: 80%;
-  margin: 0 auto;
+  position: relative;
+  z-index: .8;
+  width: 100%;
 }
 
 .mainMessage {
@@ -121,14 +123,18 @@ h1 {
 
 footer {
     font-family: 'Assistant', sans-serif;
-    position: fixed;
-    bottom: 0;
-    margin-bottom: 20px;
+    position: relative;
+    bottom: 5%;
+    margin-top: 40%;
+    margin-right: 0;
+    width: 100%;
+    text-align: center;
+    height: 100px;
 }
 .socials {
     font-size: 2rem;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    justify-content: space-evenly;
     gap: 20px;
     width: 100%;
   }

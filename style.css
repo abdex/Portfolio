@@ -113,6 +113,30 @@ h1 {
     flex-direction: column;
 }
 
-@media screen (min-width: 500px) {
+@media screen and (min-width: 450px) {
+    .target{
     flex-direction: row;
+  }
 }
+
+footer {
+    font-family: 'Assistant', sans-serif;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 20px;
+}
+.socials {
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .socials a {
+    color: rgb(95, 158, 160);
+  }
+  
+  .socials a:hover {
+    color:plum;
+  }

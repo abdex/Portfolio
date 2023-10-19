@@ -21,3 +21,34 @@ displayTarget.innerHTML = output
 })
 
 
+// const toggleButton = document.querySelector('.toggleButton')
+// document.querySelector('.toggleButton').addEventListener('click', handleClick)
+
+// function handleClick (event) {
+//     event.preventDefault()
+//     const modal = document.querySelector('.modal');
+//     if (modal.style.display === "block") {
+//         modal.style.display = "none";
+//     }
+//     else {
+//         modal.style.display = "block";
+//     }
+// }
+
+const span = document.getElementsByClassName("close") [0]; {
+
+    span.onclick = function() {
+    modal.style.display = "none";
+}
+}
+
+
+let modal = document.querySelector("#myModal")
+let button = document.querySelector(".openModalButton")
+
+  document.querySelectorAll('.openModalButton').forEach(function(button){
+    button.addEventListener('click', function() {
+        modal.style.display = 'block';
+
+    })
+})

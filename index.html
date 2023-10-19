@@ -21,17 +21,36 @@
     </div>
 
     <nav class="navContainer">
-      <div><i class="fa-solid fa-bars"></i></div>
+      <div class="openModalButton"><i class="fa-solid fa-bars" ></i></div>
       <div><a href="index.html">Home</a></div>
       <div><a href="aboutme.html">About</a></div>
       <div><a href="projects.html">Latest Projects</a></div>
       <div><a href="contact.html">Contact</a></div>
     </nav>
 
+    <div id="myModal" class="modal">
+        <div class="modalContent">
+            <span class="close" onclick="toggleButtonFunction()">&times;</span>
+            <h3>Get in touch</h3>
+            <p class="mText">Fill out the form below and I'll be in touch</p>
+             <div class="modalFormContainer">
+               <form class="modalForm">
+                 <div><label for="name" class="mText">Name</label></div>
+                 <div><input type="text" id="name"/></div>
+
+                 <div><label for="email" class="mText">Email</label></div>
+                 <div><input type="email"id="email"/></div>
+                 
+                 <div><label for="Comments" class="mText">Reason for contacting me</label></div>
+                 <div><textarea type="textarea" id="comments"></textarea></div>
+                 <div><input type="submit" value="Send"></div>
+                </form>
+                </div></div></div>
+
     <main class="mainMessage">
         
         <h1>Hello, my name is Abby and I'm a full stack web developer based in the UK. Here are a few of my latest projects.</h1>
-        
+
     </main>
     
 </body>

@@ -46,9 +46,18 @@ const span = document.getElementsByClassName("close") [0]; {
 let modal = document.querySelector("#myModal")
 let button = document.querySelector(".openModalButton")
 
+
   document.querySelectorAll('.openModalButton').forEach(function(button){
-    button.addEventListener('click', function() {
+    button.addEventListener('click', function(event) {
+        
         modal.style.display = 'block';
 
     })
 })
+
+let submit = document.querySelector("#submit")
+
+    submit.addEventListener('click', function(event) {
+        event.preventDefault()
+    }
+    )

@@ -12,7 +12,7 @@ data.projects.forEach(function (item) {
     output += '<h2>' + item.name + '</h2>'
     output += '<p>' + item.date + '</p>'
     output += '<p>' + item.details + '</p>'
-    output += "<a href='#'><p>" + item.location + "</p></a>"
+    output += "<a href='https://github.com' target=_blank>" + "<button>" + item.location + "</button>" + "</a>"
     output += '<div class="project_images"><img src="' + item.image + '" /></div>'
     output += '</div>'
 })

@@ -116,6 +116,11 @@ h1 {
     gap: 10px;
     flex-direction: column;
     padding-bottom: 100px;
+    margin: 10px;
+}
+
+.target button {
+    margin-bottom: 10px;
 }
 
 @media screen and (min-width: 450px) {

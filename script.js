@@ -1,8 +1,14 @@
-fetch('/portfolio.json').then(function (response) {
-    return response.json()
-}).then(function (data) {
+// fetch('/portfolio.json').then(function (response) {
+//     return response.json()
+// }).then(function (data) {
 
-const displayTarget = document.querySelector('.target')
+    fetch('http://localhost:3000/portfolio.json')
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(data) {
+      // Your existing code for processing the JSON data
+      const displayTarget = document.querySelector('.target')
 
 let output = '';
 
@@ -19,6 +25,12 @@ data.projects.forEach(function (item) {
 
 displayTarget.innerHTML = output
 })
+
+    .catch(function(error) {
+      console.error('Error fetching JSON:', error);
+    });
+
+
 
 
 // const toggleButton = document.querySelector('.toggleButton')
